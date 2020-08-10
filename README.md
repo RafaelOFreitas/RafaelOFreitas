@@ -1,3 +1,1 @@
-<div align=center>
-    <img src="./profile.svg">
-</div>
+[![Profile](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/16b0509f611df24529636c37fe62311dc6e730da/profile.svg)](https://github.com/RafaelOFreitas)
