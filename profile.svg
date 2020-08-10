@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900"
+    style="background:#24292d">
+    <defs>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+        </style>
+    </defs>
+
+    <text font-family="Roboto" font-size="40" x="30" y="60">
+        <tspan fill="white">What's up,</tspan>
+        <tspan fill="#ffbe13">\o/</tspan>👋
+    </text>
+    <line x1="20" y1="80" x2="400" y2="80" style="stroke:#fff;stroke-width:3" />
+
+    <g id="content" transform="translate(600, 150)" font-family="Roboto">
+        <text text-anchor="middle" font-size="25">
+            <tspan fill="white">🇧🇷 My name is Rafael Freitas and I'm from Brazil. </tspan>
+        </text>
+
+        <text text-anchor="middle" font-size="25" y="50">
+            <tspan fill="white">👷 I work as a back-end developer. I actually work as a back-end engineer at ZUP.
+            </tspan>
+        </text>
+
+        <text text-anchor="middle" font-size="25" y="100">
+            <tspan fill="white">🤔 I love challenges and saying that what was "impossible" was actually something
+                complicated!</tspan>
+        </text>
+
+        <text text-anchor="middle" font-size="25" y="150">
+            <tspan fill="white">🌱 I'm currently learning a little about front-end and a lot about algorithm and machine
+                learning.</tspan>
+        </text>
+
+        <text text-anchor="middle" font-size="25" y="200">
+            <tspan fill="white"> 👨‍🏫 Currently angel helping people who are interested in entering the software
+                development area.</tspan>
+        </text>
+        <svg x="-247.5" y="250">
+            <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none">
+                <style>
+                    .header {
+                        font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                        fill: #bf91f3;
+                        animation: fadeInAnimation 0.8s ease-in-out forwards;
+                    }
+
+                    .stat {
+                        font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+                        fill: #38bdae;
+                    }
+
+                    .stagger {
+                        opacity: 0;
+                        animation: fadeInAnimation 0.3s ease-in-out forwards;
+                    }
+
+                    .rank-text {
+                        font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif;
+                        fill: #38bdae;
+                        animation: scaleInAnimation 0.3s ease-in-out forwards;
+                    }
+
+                    .bold {
+                        font-weight: 700
+                    }
+
+                    .icon {
+                        fill: #bf91f3;
+                        display: block;
+                    }
+
+                    .rank-circle-rim {
+                        stroke: #bf91f3;
+                        fill: none;
+                        stroke-width: 6;
+                        opacity: 0.2;
+                    }
+
+                    .rank-circle {
+                        stroke: #70a5fd;
+                        stroke-dasharray: 250;
+                        fill: none;
+                        stroke-width: 6;
+                        stroke-linecap: round;
+                        opacity: 0.8;
+                        transform-origin: -10px 8px;
+                        transform: rotate(-90deg);
+                        animation: rankAnimation 1s forwards ease-in-out;
+                    }
+
+                    @keyframes rankAnimation {
+                        from {
+                            stroke-dashoffset: 251.32741228718345;
+                        }
+
+                        to {
+                            stroke-dashoffset: 124.77495464702933;
+                        }
+                    }
+
+                    /* Animations */
+                    @keyframes scaleInAnimation {
+                        from {
+                            transform: translate(-5px, 5px) scale(0);
+                        }
+
+                        to {
+                            transform: translate(-5px, 5px) scale(1);
+                        }
+                    }
+
+                    @keyframes fadeInAnimation {
+                        from {
+                            opacity: 0;
+                        }
+
+                        to {
+                            opacity: 1;
+                        }
+                    }
+                </style>
+                undefined
+                <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#E4E2E2" width="494"
+                    fill="#1a1b27" stroke-opacity="1" />
+
+                <g data-testid="card-title" transform="translate(25, 35)">
+                    <g transform="translate(0, 0)">
+                        <text x="0" y="0" class="header" data-testid="header">Rafael Freitas</text>
+                    </g>
+                </g>
+                <g data-testid="main-card-body" transform="translate(0, 55)">
+
+                    <g data-testid="rank-circle" transform="translate(400, 47.5)">
+                        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+                        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+                        <g class="rank-text">
+                            <text x="0" y="0" alignment-baseline="central" dominant-baseline="central"
+                                text-anchor="middle">
+                                A+
+                            </text>
+                        </g>
+                    </g>
+
+                    <svg x="0" y="0">
+                        <g transform="translate(0, 0)">
+                            <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+
+                                <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16"
+                                    height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z" />
+                                </svg>
+
+                                <text class="stat bold" x="25" y="12.5">Total Stars:</text>
+                                <text class="stat" x="200" y="12.5" data-testid="stars">5</text>
+                            </g>
+                        </g>
+                        <g transform="translate(0, 25)">
+                            <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
+
+                                <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16"
+                                    height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" />
+                                </svg>
+
+                                <text class="stat bold" x="25" y="12.5">Total Commits (2020):</text>
+                                <text class="stat" x="200" y="12.5" data-testid="commits">404</text>
+                            </g>
+                        </g>
+                        <g transform="translate(0, 50)">
+                            <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
+
+                                <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16"
+                                    height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" />
+                                </svg>
+
+                                <text class="stat bold" x="25" y="12.5">Total PRs:</text>
+                                <text class="stat" x="200" y="12.5" data-testid="prs">3</text>
+                            </g>
+                        </g>
+                        <g transform="translate(0, 75)">
+                            <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
+
+                                <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16"
+                                    height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" />
+                                </svg>
+
+                                <text class="stat bold" x="25" y="12.5">Total Issues:</text>
+                                <text class="stat" x="200" y="12.5" data-testid="issues">1</text>
+                            </g>
+                        </g>
+                        <g transform="translate(0, 100)">
+                            <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
+
+                                <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16"
+                                    height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" />
+                                </svg>
+
+                                <text class="stat bold" x="25" y="12.5">Contributed to:</text>
+                                <text class="stat" x="200" y="12.5" data-testid="contribs">1</text>
+                            </g>
+                        </g>
+                    </svg>
+
+                </g>
+            </svg>
+        </svg>
+
+        <text text-anchor="middle" font-size="25" y="500">
+            <tspan fill="white">A passionate Software Developement Student 🚀</tspan>
+        </text>
+
+        <a xlink:href="https://www.linkedin.com/in/rafael-freitas-dev/">
+            <rect width="110" height="30" x="-120" y="550" style="fill:white;stroke-width:1;stroke:rgba(0,119,183,1)" />
+            <svg x="-115" y="550" width="25" height="30">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="Layer_1" x="0px" y="0px" viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;"
+                    xml:space="preserve">
+                    <path style="fill:#0077B7;"
+                        d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z" />
+                </svg>
+            </svg>
+            <text font-size="20" x="-88" y="572" fill="#0077B7">Linkedin</text>
+        </a>
+
+        <a xlink:href="mailto:rafaelfreitas.dev@gmail.com">
+            <rect width="110" height="30" x="10" y="550" style="fill:#c14438;stroke-width:1;stroke:#fff" />
+            <svg x="15" y="550" width="30" height="30">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                    xml:space="preserve">
+                    <g>
+                        <polygon style="fill:#F2F2F2;"
+                            points="445.244,159.1 445.244,444.019 66.756,444.019 66.756,159.1 256,297.033  " />
+                        <polygon style="fill:#F2F2F2;" points="466.067,67.981 256,221.091 45.933,67.981 256,67.981  " />
+                    </g>
+                    <g>
+                        <path style="fill:#F14336;"
+                            d="M66.756,159.1v284.919H32.459c-12.849,0-23.273-10.424-23.273-23.273V117.135L66.756,159.1z" />
+                        <path style="fill:#F14336;"
+                            d="M502.813,91.254v25.882L445.244,159.1L256,297.033L66.756,159.1L9.187,117.135V91.254   c0-12.849,10.424-23.273,23.273-23.273h13.474L256,221.091l210.067-153.11h13.461C492.39,67.981,502.813,78.405,502.813,91.254z" />
+                    </g>
+                    <path style="fill:#D32E2A;"
+                        d="M502.813,117.135v303.611c0,12.849-10.424,23.273-23.285,23.273h-34.284V159.1L502.813,117.135z" />
+                    <path style="fill:#333333;"
+                        d="M479.528,58.794H32.459C14.561,58.794,0,73.356,0,91.254v329.493  c0,17.898,14.561,32.459,32.459,32.459h447.069c17.905,0,32.472-14.561,32.472-32.459V91.254  C512,73.356,497.434,58.794,479.528,58.794z M437.867,77.167L256,209.723L74.133,77.167H437.867z M18.373,420.746V135.2  l39.196,28.569v271.064h-25.11C24.692,434.833,18.373,428.513,18.373,420.746z M436.057,434.833H75.943V177.161L250.59,304.457  c1.611,1.175,3.511,1.763,5.41,1.763c1.9,0,3.8-0.588,5.41-1.763l174.647-127.297V434.833z M493.627,420.746  c0,7.767-6.324,14.086-14.098,14.086h-25.098V163.769l39.196-28.569V420.746z M493.627,112.464L256,285.665L18.373,112.464v-21.21  c0-7.767,6.319-14.086,14.086-14.086h10.481L250.59,228.515c1.612,1.175,3.51,1.763,5.41,1.763c1.9,0,3.798-0.588,5.41-1.763  L469.059,77.167h10.469c7.774,0,14.098,6.319,14.098,14.086V112.464z" />
+                </svg>
+            </svg>
+            <text font-size="20" x="50" y="570" fill="white">Gmail</text>
+        </a>
+
+        <line x1="-200" y1="625" x2="200" y2="625" style="stroke:#fff;stroke-width:1;" />
+
+        <a xlink:href="https://bit.ly/3iqGt8y">
+            <svg x="-39" y="640">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78"
+                    height="20" role="img" aria-label="📥: RESUME">
+                    <title>📥: RESUME</title>
+                    <linearGradient id="s" x2="0" y2="100%">
+                        <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                        <stop offset="1" stop-opacity=".1" />
+                    </linearGradient>
+                    <clipPath id="r">
+                        <rect width="78" height="20" rx="3" fill="#fff" />
+                    </clipPath>
+                    <g clip-path="url(#r)">
+                        <rect width="21" height="20" fill="#555" />
+                        <rect x="21" width="57" height="20" fill="#007ec6" />
+                        <rect width="78" height="20" fill="url(#s)" />
+                    </g>
+                    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                        text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="115" y="150"
+                            fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="110">📥</text><text
+                            x="115" y="140" transform="scale(.1)" fill="#fff" textLength="110">📥</text><text
+                            aria-hidden="true" x="485" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                            textLength="470">RESUME</text><text x="485" y="140" transform="scale(.1)" fill="#fff"
+                            textLength="470">RESUME</text></g>
+                </svg>
+            </svg>
+        </a>
+    </g>
+</svg>
