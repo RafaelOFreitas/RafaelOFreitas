@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" class="bg-grey-dark">
 
 ### "What's up" \o/ 👋
 
