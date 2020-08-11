@@ -1,8 +1,9 @@
-<img src="./profile.svg" />
+[![Top Langs](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/13976014f8cc089af0f8674af5c911eb8b93fec5/profile.svg)](https://github.com/RafaelOFreitas)
+
 
 <div align="center">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelOFreitas&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelOFreitas&layout=compact&theme=dracula)](https://github.com/RafaelOFreitas)
 
 [![Github Stats](https://github-readme-stats.vercel.app/api/pin/?username=RafaelOFreitas&repo=pnalg&theme=dracula)](https://github.com/RafaelOFreitas/pnalg)
 
