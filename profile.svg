@@ -155,11 +155,11 @@
 
     <g id="content" transform="translate(600, 190)" font-family="Roboto">
         <text text-anchor="middle" font-size="25">
-            <tspan fill="white">🇧🇷 My name is Rafael Freitas and I'm from Brazil. </tspan>
+            <tspan fill="white">🇧🇷 My name is Rafael Freitas. </tspan>
         </text>
 
         <text text-anchor="middle" font-size="25" y="50">
-            <tspan fill="white">👷 I work as a back-end developer. I actually work as a back-end engineer at ZUP.
+            <tspan fill="white">👷 I work as a back-end developer. I actually work as a back-end engineer at Banco Inter 🧡.
             </tspan>
         </text>
 
@@ -169,7 +169,7 @@
         </text>
 
         <text text-anchor="middle" font-size="25" y="150">
-            <tspan fill="white">🌱 I'm currently learning a little about front-end and a lot about algorithm and machine
+            <tspan fill="white">🌱 I'm currently learning a lot about backend development, algorithm and machine 
                 learning.</tspan>
         </text>
 
