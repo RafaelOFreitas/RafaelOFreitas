@@ -1,1 +1,1 @@
-[![Top Langs](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/e90548faebd0bcfb632c74b4fa936ff58d51dcdd/profile.svg)](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/e90548faebd0bcfb632c74b4fa936ff58d51dcdd/profile.svg)
+[![Top Langs](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/bb62f3b5d64d36aff61fd7869dcfa64d73f10b7e/profile.svg)](https://raw.githubusercontent.com/RafaelOFreitas/RafaelOFreitas/bb62f3b5d64d36aff61fd7869dcfa64d73f10b7e/profile.svg)
